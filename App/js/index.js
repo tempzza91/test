@@ -32,11 +32,11 @@ xui.Class('App', 'xui.Module',{
             
             host.xui_ui_dialog8.append(
                 xui.create("xui.UI.FormLayout")
-                .setHost(host,"xui_ui_formlayout3")
+                .setHost(host,"xui_ui_formlayout4")
                 .setLeft("23.61904761904762em")
-                .setTop("11.428571428571429em")
+                .setTop("15.238095238095237em")
                 .setWidth("14.019047619047619em")
-                .setHeight("2.5142857142857142em")
+                .setHeight("2.361904761904762em")
                 .setLayoutData({
                     "rows" : 1,
                     "cols" : 1,
@@ -57,9 +57,9 @@ xui.Class('App', 'xui.Module',{
             
             host.xui_ui_dialog8.append(
                 xui.create("xui.UI.FormLayout")
-                .setHost(host,"xui_ui_formlayout4")
+                .setHost(host,"xui_ui_formlayout9")
                 .setLeft("23.61904761904762em")
-                .setTop("15.238095238095237em")
+                .setTop("11.428571428571429em")
                 .setWidth("14.019047619047619em")
                 .setHeight("2.361904761904762em")
                 .setLayoutData({
@@ -231,25 +231,6 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.HiddenInput")
                 .setHost(host,"xui_ui_hiddeninput1")
                 .setValue("")
-            );
-            
-            append(
-                xui.create("xui.UI.FormLayout")
-                .setHost(host,"xui_ui_formlayout1")
-                .setLeft("35.80952380952381em")
-                .setTop("15.238095238095237em")
-                .setWidth("14.019047619047619em")
-                .setHeight("2.2095238095238097em")
-                .setPosition("relative")
-                .setLayoutData({
-                    "rows" : 1,
-                    "cols" : 0,
-                    "rowSetting" : {
-                        "1" : {
-                            "manualHeight" : 10
-                        }
-                    }
-                })
             );
             
             return children;
